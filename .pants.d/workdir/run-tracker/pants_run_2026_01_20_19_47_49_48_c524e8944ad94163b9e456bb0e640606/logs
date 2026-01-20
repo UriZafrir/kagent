@@ -1,0 +1,13 @@
+19:47:49.08 [31m[ERROR][0m Invalid option 'source_roots' under [python] in /mnt/data/general/kagent/pants.toml
+19:47:49.08 [31m[ERROR][0m Invalid section [go] in /mnt/data/general/kagent/pants.toml
+19:47:49.08 [31m[ERROR][0m Invalid section [javascript] in /mnt/data/general/kagent/pants.toml
+19:47:49.08 [31m[ERROR][0m Invalid config entries detected. See log for details on which entries to update or remove.
+
+(Specify --no-verify-config to disable this check.)
+
+
+Use --print-stacktrace for more error details and/or -ldebug for more logs. 
+See https://www.pantsbuild.org/2.24/docs/using-pants/troubleshooting-common-issues for common issues.
+Consider reaching out for help: https://www.pantsbuild.org/community/getting-help
+
+19:47:49.08 [INFO] request completed: ``

@@ -1,0 +1,31 @@
+19:45:46.90 [31m[ERROR][0m Invalid option 'source_roots' under [python] in /mnt/data/general/kagent/pants.toml
+19:45:46.90 [31m[ERROR][0m Invalid section [go] in /mnt/data/general/kagent/pants.toml
+19:45:46.90 [31m[ERROR][0m Invalid section [javascript] in /mnt/data/general/kagent/pants.toml
+19:45:46.90 [31m[ERROR][0m Invalid section [isort] in /mnt/data/general/kagent/pants.toml
+19:45:46.90 [31m[ERROR][0m Invalid config entries detected. See log for details on which entries to update or remove.
+
+(Specify --no-verify-config to disable this check.)
+
+
+Use --print-stacktrace for more error details and/or -ldebug for more logs. 
+See https://www.pantsbuild.org/2.24/docs/using-pants/troubleshooting-common-issues for common issues.
+Consider reaching out for help: https://www.pantsbuild.org/community/getting-help
+
+19:45:46.90 [INFO] request completed: ``
+19:46:18.19 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+19:46:18.19 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+19:46:18.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:46:18.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:46:18.19 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:46:18.19 [INFO] notify invalidation: cleared 2 and dirtied 4 nodes for: {"pants.toml", ""}
+19:46:18.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+19:46:18.82 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x778b135f5df0>.
+19:46:18.82 [INFO] Waiting for ongoing runs to complete before exiting...
+19:46:18.82 [INFO] Server exiting with Ok(())
+19:46:18.82 [INFO] Waiting for Sessions to complete before exiting...
+19:46:18.82 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session"]
+19:46:18.82 [INFO] Shutdown completed: "scheduler_service_session"
+19:46:18.82 [INFO] Shutdown completed: "store_gc_service_session"
+19:46:18.82 [INFO] Exiting pantsd
+19:46:18.82 [WARN] File watcher exiting with: The watcher was shut down.
+19:46:18.89 [WARN] File watcher exiting with: The watcher was shut down.
