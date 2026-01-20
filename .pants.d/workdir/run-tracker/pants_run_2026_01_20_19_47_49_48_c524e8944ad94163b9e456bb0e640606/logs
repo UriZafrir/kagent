@@ -11,3 +11,6 @@ See https://www.pantsbuild.org/2.24/docs/using-pants/troubleshooting-common-issu
 Consider reaching out for help: https://www.pantsbuild.org/community/getting-help
 
 19:47:49.08 [INFO] request completed: ``
+19:49:08.98 [INFO] Extending leases
+19:49:08.98 [INFO] Done extending leases
+19:49:31.00 [INFO] handling request: `tailor ::`

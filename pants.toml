@@ -7,16 +7,12 @@ backend_packages = [
   "pants.backend.experimental.typescript",
 ]
 
-[python]
-interpreter_constraints = ["CPython>=3.8,<4"]
-source_roots = [
-  "python",
-  "go/cli/internal/cli",
-]
+# [python]
+# source_roots = ["python"]
 
-[go]
-expected_version = "1.21"
-source_roots = ["go"]
+# [golang]
+# minimum_expected_version = "1.19"
+# source_roots = ["go"]
 
-[javascript]
-source_roots = ["ui"]
+# [javascript]
+# source_roots = ["ui"]

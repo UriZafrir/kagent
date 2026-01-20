@@ -1,0 +1,25 @@
+19:50:53.50 [31m[ERROR][0m Invalid option 'source_roots' under [python] in /mnt/data/general/kagent/pants.toml
+19:50:53.50 [31m[ERROR][0m Invalid option 'source_roots' under [golang] in /mnt/data/general/kagent/pants.toml
+19:50:53.50 [31m[ERROR][0m Invalid section [javascript] in /mnt/data/general/kagent/pants.toml
+19:50:53.50 [31m[ERROR][0m Invalid config entries detected. See log for details on which entries to update or remove.
+
+(Specify --no-verify-config to disable this check.)
+
+
+Use --print-stacktrace for more error details and/or -ldebug for more logs. 
+See https://www.pantsbuild.org/2.24/docs/using-pants/troubleshooting-common-issues for common issues.
+Consider reaching out for help: https://www.pantsbuild.org/community/getting-help
+
+19:50:53.50 [INFO] request completed: `tailor ::`
+19:52:13.39 [INFO] Extending leases
+19:52:13.39 [INFO] Done extending leases
+19:52:19.48 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+19:52:19.48 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+19:52:19.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:52:19.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:52:19.48 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:52:19.49 [INFO] notify invalidation: cleared 2 and dirtied 4 nodes for: {"", "pants.toml"}
+19:52:19.49 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+19:52:20.39 [INFO] handling request: `tailor ::`
+19:52:20.48 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x78ffbfdf1d60>.
+19:52:20.51 [INFO] Waiting for ongoing runs to complete before exiting...

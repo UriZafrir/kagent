@@ -1,0 +1,47 @@
+19:52:20.67 [INFO] notify invalidation: cleared 1 and dirtied 582 nodes for: {"", ".tmpE4p2Uu.hardlink_canary"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {".tmpE4p2Uu.hardlink_canary", ""}
+19:52:20.67 [INFO] notify invalidation: cleared 1 and dirtied 302 nodes for: {"go/BUILD", "go"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go", "go/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 1 and dirtied 284 nodes for: {"ui", "ui/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"ui/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"ui", "ui/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 1 and dirtied 104 nodes for: {".github/data/agent-framework", ".github/data/agent-framework/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {".github/data/agent-framework/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {".github/data/agent-framework", ".github/data/agent-framework/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 1 and dirtied 87 nodes for: {"go/controller/cmd", "go/controller/cmd/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/controller/cmd/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/controller/cmd/BUILD", "go/controller/cmd"}
+19:52:20.67 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/internal/a2a", "go/internal/a2a/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/a2a/BUILD"}
+19:52:20.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/a2a/BUILD", "go/internal/a2a"}
+19:52:20.67 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/controller/translator/BUILD", "go/controller/translator"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/internal/adk/BUILD", "go/internal/adk"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 90 nodes for: {"go/internal/database/BUILD", "go/internal/database"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/adk/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/adk", "go/internal/adk/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/internal/goruntime", "go/internal/goruntime/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/controller/translator/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 99 nodes for: {"go/internal/httpserver/BUILD", "go/internal/httpserver"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/controller/translator", "go/controller/translator/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/goruntime/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/database/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/goruntime/BUILD", "go/internal/goruntime"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/database/BUILD", "go/internal/database"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/httpserver/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/httpserver/BUILD", "go/internal/httpserver"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/internal/metrics", "go/internal/metrics/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/metrics/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/metrics/BUILD", "go/internal/metrics"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/internal/version/BUILD", "go/internal/version"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/version/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/internal/version", "go/internal/version/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/cli/internal/config", "go/cli/internal/config/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/controller/internal/a2a", "go/controller/internal/a2a/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 81 nodes for: {"go/controller/internal/reconciler/BUILD", "go/controller/internal/reconciler"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 83 nodes for: {"go/controller/internal/controller/BUILD", "go/controller/internal/controller"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/cli/internal/config/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 1 and dirtied 83 nodes for: {"go/internal/httpserver/errors", "go/internal/httpserver/errors/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/controller/internal/a2a/BUILD"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/cli/internal/config/BUILD", "go/cli/internal/config"}
+19:52:20.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"go/controller/internal/reconciler/BUILD"}
