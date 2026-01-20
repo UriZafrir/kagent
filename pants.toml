@@ -1,0 +1,44 @@
+[GLOBAL]
+# Specifies the Pants version
+pants_version = "2.24.0"
+# Specifies the backend packages to load
+backend_packages = [
+  "pants.backend.python",
+  "pants.backend.experimental.go",
+  "pants.backend.experimental.javascript",
+  "pants.backend.experimental.typescript", # For TypeScript support
+  "pants.backend.experimental.python.lockfile", # For Python lockfile management
+]
+
+# Python specific configurations
+[python]
+# Python interpreter compatibility
+interpreter_constraints = ["CPython>=3.8,<4"]
+# Path to your Python source code
+source_roots = ["python", "go/cli/internal/cli"] # Assuming Python code is in a 'python' directory and some in go/cli/internal/cli
+
+# Go specific configurations
+[go]
+# Go version to use
+expected_version = "1.x"
+# Path to your Go source code
+source_roots = ["go"]
+
+# JavaScript/TypeScript specific configurations
+[javascript]
+# Path to your UI source code
+source_roots = ["ui"]
+# If you have a package manager like npm or yarn
+# pnpm_version = "x.y.z"
+# yarn_version = "x.y.z"
+
+# You might also want to configure linters, formatters, and test runners
+# For example, with Python:
+[isort]
+args = ["--profile", "black"]
+
+[black]
+args = ["--safe"]
+
+[pytest]
+args = ["--strict-markers"]
